@@ -1,0 +1,63 @@
+<RCC>
+  <qresource prefix="/icons">
+    <file>icons/star.png</file>
+    <file>icons/annuler.png</file>
+    <file>icons/backlinks.png</file>
+    <file>icons/importerexporter.png</file>
+    <file>icons/outils.png</file>
+    <file>icons/scrap.png</file>
+    <file>icons/supprimer.png</file>
+    <file>icons/rddzscraper-16.png</file>
+    <file>icons/rddzscraper-24.png</file>
+    <file>icons/rddzscraper-32.png</file>
+    <file>icons/rddzscraper-48.png</file>
+    <file>icons/youtube.png</file>
+  </qresource>
+  <qresource prefix="/toolbar">
+    <file>icons/toolbar/Info.png</file>
+    <file>icons/toolbar/Find.png</file>
+    <file>icons/toolbar/delete/Duplicate.png</file>
+    <file>icons/toolbar/linkAlive.png</file>
+    <file>icons/toolbar/Clear.png</file>
+    <file>icons/toolbar/delete/regex.png</file>
+    <file>icons/toolbar/delete/Delete.png</file>
+    <file>icons/toolbar/delete/badUrls.png</file>
+    <file>icons/toolbar/delete/Disaster.png</file>
+    <file>icons/toolbar/delete/selected-delete.png</file>
+    <file>icons/toolbar/delete/Fall.png</file>
+    <file>icons/toolbar/TransferCustom1.png</file>
+    <file>icons/toolbar/IP-Address-Location.png</file>
+    <file>icons/toolbar/PlatformDetector.png</file>
+    <file>icons/toolbar/obl.png</file>
+    <file>icons/toolbar/backlinks.png</file>
+    <file>icons/toolbar/statusCode.png</file>
+    <file>icons/toolbar/httpStatus.png</file>
+    <file>icons/toolbar/pagerank.png</file>
+    <file>icons/toolbar/Update.png</file>
+    <file>icons/toolbar/Downloads folder.png</file>
+    <file>icons/toolbar/Up.png</file>
+  </qresource>
+  <qresource prefix="/menu">
+    <file>icons/menu/semanager.png</file>
+    <file>icons/menu/rddzxpi.png</file>
+    <file>icons/menu/empty.png</file>
+    <file>icons/menu/footprint.png</file>
+    <file>icons/menu/quit.png</file>
+    <file>icons/menu/unlock.png</file>
+    <file>icons/menu/down-arrow.png</file>
+    <file>icons/menu/options.png</file>
+    <file>icons/menu/import.png</file>
+    <file>icons/menu/export.png</file>
+    <file>icons/menu/lang.png</file>
+  </qresource>
+  <qresource prefix="/lang">
+    <file>icons/France.png</file>
+    <file>icons/United-States.png</file>
+    <file>lang/rddzscraper_fr.qm</file>
+  </qresource>
+  <qresource prefix="/styles">
+    <file>styles/default.css</file>
+    <file>styles/black.css</file>
+    <file>styles/default-macosx.css</file>
+  </qresource>
+</RCC>

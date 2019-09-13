@@ -1,0 +1,146 @@
+QWidget{
+background-color: rgb(225, 225, 225);
+}
+
+QMenuBar, QMenuBar::item {
+background-color:qlineargradient(spread:pad, x1:0.5, y1:0, x2:0.5, y2:1, stop:0 rgba(176, 176, 176, 255), stop:1 rgba(135, 135, 135, 255));
+}
+
+
+QMenu:open  {
+background-color: rgb(225, 225, 225);
+}
+
+QMenuBar::item:selected, QMenu::item:selected {
+background-color: #A3BBE2;
+}
+
+QPushButton  {
+background-color: qlineargradient(spread:pad, x1:0.500, y1:0.449, x2:0.500, y2:0.994, stop:0 #F2F2F2, stop:0.217195 #EBEBEB, stop:1 #CFCFCF);
+border-radius: 6px;
+border: 1px solid #8E8E8E;
+/*border-style: outset;*/
+padding: 2px;
+max-height: 20px;
+}
+
+#topGrid QPushButton {
+min-width: 40px;
+}
+
+QPushButton:pressed, QPushButton::selected {
+     background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                       stop: 0 #dadbde, stop: 1 #f6f7fa);
+}
+
+
+QPushButton:hover {
+border-style: inset;
+}
+
+
+QLineEdit {
+background-color: rgb(255,255,255);
+}
+
+QTabWidget::pane {
+border: 1px solid rgb(150,150,150);
+}
+
+QComboBox::item:selected {
+background-color: #A3BBE2;
+}
+
+
+QToolBox::tab {
+/*background-color:qlineargradient(spread:pad, x1:0.5, y1:0, x2:0.5, y2:1, stop:0 rgba(206, 206, 206, 255), stop:1 rgba(176, 176, 176, 255));padding-top:1px;*/
+background-color:qlineargradient(spread:pad, x1:0.5, y1:0, x2:0.5, y2:1, stop:0 rgba(34, 149, 195, 255), stop:1 rgba(28, 96, 128, 255));padding-top:1px;
+padding-left:10px;
+color:#e4e5e9;
+font-weight:bold;
+/*font-size:18px;*/
+}
+
+#page > QPushButton, #page_2 > QPushButton, #page_3 > QPushButton {
+max-height: 20px;
+/*Uncomment next line for MAC only*/
+/*margin-top:10px;*/
+}
+
+QToolButton {
+background-color:qlineargradient(spread:pad, x1:0.5, y1:0, x2:0.5, y2:1, stop:0 rgba(176, 176, 176, 255), stop:1 rgba(135, 135, 135, 255));padding-top:1px;background:transparent no-repeat right middle;
+}
+
+
+QGroupBox {
+font-weight:bold;
+padding:5px;
+border: 3px ridge #8E8E8E;
+background: transparent;
+padding-top:20px;
+}
+
+QGroupBox::title {
+background: transparent;
+}
+
+QGroupBox > QComboBox {
+font-weight:normal;
+padding:0;
+min-width:40px;
+}
+
+
+QGroupBox > QGroupBox {
+/*border-width:0px;*/
+}
+
+
+#widget_2 > QLabel {
+min-width: 300px;
+}
+
+#proxiesGroupBox {
+border-width:0px;
+padding:15px 0 0 15px;
+margin-top:10px;
+}
+
+
+#proxiesButtonGroupBox {
+margin-top:-20px;
+}
+
+#proxiesButtonGroupBox > QPushButton {
+margin-bottom:5px;
+min-height:14px;
+}
+
+#apiGroupBoxLeft,#apiGroupBoxRight {
+border-width:0px;
+margin-top:-20px;
+}
+
+#ahrefsGroupBox, #mozGroupBox, #majesticGroupBox, #whoisGroupBox {
+border-width:1px;
+border-style: solid;
+border-radius: 4px;
+/*border-style: solid;
+border-radius: 4px;*/
+}
+
+#mozGroupBox::title, #ahrefsGroupBox::title {
+color: gray;
+background-color: transparent;
+padding-top: -24px;
+padding-left: 8px;
+}
+
+QHeaderView::section {
+color: black;
+font-size: 9pt;
+}
+
+QStatusBar::item {
+border: 0px solid black
+}

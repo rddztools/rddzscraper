@@ -1,0 +1,7 @@
+<RCC>
+  <qresource prefix="icons">
+    <file>icons/SEManager/Add.png</file>
+    <file>icons/SEManager/Modify.png</file>
+    <file>icons/SEManager/Remove.png</file>
+  </qresource>
+</RCC>
